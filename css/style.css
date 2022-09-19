@@ -1,0 +1,281 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(253, 252, 239, 1);
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 136.7%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 31px;
+}
+
+.logo img {
+    margin-bottom: 82px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-bottom: 104px;
+}
+
+.offer {
+    padding: 38px 0;
+    width: 465px;
+}
+
+h1 {
+    margin-bottom: 29px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 140%;
+}
+
+.offer p {
+    margin-bottom: 30px;
+    width: 423px;
+}
+
+.button {
+    background: #FF6861;
+    border-radius: 100px;
+    text-decoration: none;
+    width: 227px;
+    display: block;
+    padding: 22px 70px;
+    color: #fff;
+    margin-top: 24px;
+}
+
+h2 {
+    font-weight: 700;
+    line-height: 140%;
+    font-size: 40px;
+}
+
+.feature-title {
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.features h2 {
+    text-align: center;
+}
+
+.feature {
+    display: flex;
+    gap: 34px;
+    margin-bottom: 34px;
+}
+
+.feature-list {
+    padding: 70px 195px 0;
+}
+
+.motivation-card {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding: 152px 20px;
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+}
+
+.motivation-list {
+    max-width: 475px;
+}
+
+.motivation-list h2 {
+    padding-top: 17px;
+    margin: 0px 0 26px 0;
+}
+
+.motivation-list p {
+    width: 371px;
+}
+
+.motivation-card img {
+    width: 287px;
+    height: 287px;
+    margin-top: 40px;
+}
+
+.credits {
+    text-align: center;
+    font-size: 15px;
+    line-height: 136.7%;
+}
+
+.bug:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.bug {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.footer {
+    padding: 120px 0;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .footer {
+        padding-bottom: 120px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .wrapper img {
+        width: 465px;
+        margin: 0 127px;
+    }
+
+    .offer {
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .offer p {
+        width: 100%;
+    }
+
+    .button {
+        display: inline-block;
+    }
+
+    .feature {
+        width: 720px;
+    }
+
+    .feature-list {
+        padding: 70px 0 0 0;
+    }
+
+    .motivation-card {
+        flex-direction: column;
+        padding: 100px 144px 120px;
+        text-align: center;
+    }
+
+    .motivation-card img {
+        margin: 0 auto;
+    }
+
+    .motivation-list p {
+        width: 371px;
+        margin: 0 auto;
+    }
+
+    .footer {
+        padding-bottom: 120px;
+    }
+
+    .logo img {
+        margin-left: 255px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .logo img {
+        margin-left: 175px;
+    }
+
+    .wrapper img {
+        margin: 0 auto;
+    }
+
+    .motivation-list h2 {
+        width: 432px;
+        margin: 0 0 26px -72;
+    }
+
+    .motivation-list p {
+        margin: 0 0 0 -46px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .logo img {
+        width: 145px;
+        margin: 50px auto;
+        display: block;
+    }
+
+    .wrapper img {
+        max-width: 320px;
+    }
+
+    .feature-img {
+        width: 73px;
+        margin: 0 215px;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .motivation-card img {
+        width: 200px;
+        margin: 0 -65px;
+    }
+
+    .motivation-list h2 {
+        width: 100%;
+    }
+
+    .motivation-list p {
+        width: 100%;
+    }
+
+    .motivation-list a {
+        margin: 0 -96px;
+    }
+}
